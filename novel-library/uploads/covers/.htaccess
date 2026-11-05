@@ -1,0 +1,7 @@
+<IfModule mod_authz_core.c>
+    <FilesMatch "\.(php|phtml|php8|phar)$">
+        Require all denied
+    </FilesMatch>
+</IfModule>
+Options -ExecCGI -Indexes
+AddType text/plain .php .phtml .php8 .phar
