@@ -1,0 +1,7 @@
+storage/sessions/*
+!storage/sessions/.gitkeep
+storage/*.log
+uploads/covers/*
+!uploads/covers/.gitkeep
+!uploads/covers/.htaccess
+install.lock
